@@ -71,7 +71,8 @@ It might be leads to changing passwords and data and informations
 
 The detection is found by the logs checking present in there
 
-<img width="773" height="89" alt="image" src="https://github.com/user-attachments/assets/ca08ec9f-b04d-456a-aa52-30269f0e2152" />
+<img width="765" height="85" alt="image" src="https://github.com/user-attachments/assets/93313bcc-6c23-44b5-a63e-f68c6a266047" />
+
 
 
 ## Task 8: Conclusion
