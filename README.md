@@ -55,8 +55,7 @@ Also host a local python http server by using this command
 
 python3 -m http.server
 
-<img width="865" height="721" alt="Screenshot 2026-03-22 202553" src="https://github.com/user-attachments/assets/b4cc1f87-c240-4f28-839b-ad89b68669ad" />
-
+<img width="1919" height="1065" alt="Screenshot 2026-03-22 184129" src="https://github.com/user-attachments/assets/de288411-858d-4c2e-bde8-5546cb9de513" />
 
 ## Task 6: Persistance
 
